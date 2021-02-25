@@ -7,7 +7,7 @@ import SearchBar from './M-SearchBar';
 import SearchResults from './M-SearchResults';
 import { useHistory } from 'react-router-dom';
 
-const Search = () => {
+const MSearch = () => {
     const History = useHistory()
 
     const [query, setQuery] = useState('');
@@ -42,4 +42,4 @@ return (
 
 }
 
-export default Search;
+export default MSearch;

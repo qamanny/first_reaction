@@ -2,7 +2,7 @@
 
 const { default: Film } = require("./Film");
 
-const SearchResults = ({films}) => {
+const MSearchResults = ({films}) => {
     return(
         <div className="container">
             <div className="row">
@@ -15,4 +15,4 @@ const SearchResults = ({films}) => {
         </div>
     )
 }
-export default SearchResults;
+export default MSearchResults;

@@ -1,7 +1,7 @@
 'use Strict';
 import {Card,CardImg,CardBody,CardTtitle,CardSubTitle} from 'reactstrap'
 
-const Film = (props) => {
+const MFilm = (props) => {
     return (
         <>
             <Card>
@@ -16,4 +16,4 @@ const Film = (props) => {
     )
 }
 
-export default Films;
+export default MFilm;

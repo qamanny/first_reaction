@@ -1,6 +1,6 @@
 'use Strict';
 
-const SearchBar = ({ query, handleChange, search }) => {
+const MSearchBar = ({ query, handleChange, search }) => {
     return (
         <div className="container">
             <br/>
@@ -19,4 +19,4 @@ const SearchBar = ({ query, handleChange, search }) => {
     )
 }
 
-export default SearchBar;
+export default MSearchBar;
