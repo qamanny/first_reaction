@@ -3,13 +3,6 @@
 import axios from "axios";
 import { useState, useHistory } from "react";
 
-
-
-
-
-
-
-
 const Search = () => {
     const History = useHistory()
 
