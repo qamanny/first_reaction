@@ -7,7 +7,7 @@ const Film = (props) => {
             <Card>
                 <CardImg src={props.Poster} />
                 <CardBody>
-                    <CardTtitle>{props.Title}</CardTtitle>
+                    <CardTitle>{props.Title}</CardTitle>
                     <CardSubTitle>{props.Year}</CardSubTitle>
                     <button className="btn btn-outline-info" onClick={() => props.getDetails(props.imdbID)}>Details</button>
                 </CardBody>
